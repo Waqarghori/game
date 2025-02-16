@@ -4,7 +4,6 @@ let bottomPosition = 50;
 
 
 window.addEventListener("keydown", function (event) {
-    console.log(event.keyCode)
     if (event.keyCode == 32) {
         spider.src = "https://www.fightersgeneration.com/characters3/spidet-webball.gif"
         spider.style.width = `700px`
@@ -38,7 +37,6 @@ window.addEventListener("keydown", function (event) {
 let ryoX = 50;
 let ryoY = 50;
 window.addEventListener("keydown", function (event) {
-    console.log(event.keyCode)
     if (event.keyCode == 37 && ryoX < 1120) {
         ryoX += 10;
         ryo.style.right = `${ryoX}px`
