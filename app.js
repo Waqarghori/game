@@ -34,7 +34,7 @@ window.addEventListener("keydown", function (event) {
 })
 
 
-// let ryo = document.getElementById("ryo")
+ let ryo = document.getElementById("ryo")
 let ryoX = 50;
 let ryoY = 50;
 window.addEventListener("keydown", function (event) {
