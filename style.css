@@ -1,0 +1,22 @@
+.b-ground {
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://twistedsifter.com/wp-content/uploads/2013/05/animated-gifs-of-fighting-game-backgrounds-20.gif);
+    position: relative;
+    background-size: cover;
+}
+.spider-bottom img{
+    width: 200px;
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+}
+
+
+.ryo img{
+    width: 300px;
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+    transform: scaleX(-1);
+}
